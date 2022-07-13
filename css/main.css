@@ -1,0 +1,26 @@
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10vh 2fr 3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Navbar Navbar Navbar Navbar Navbar Navbar"
+      ". prof-pic Prof-info Prof-info Prof-info ."
+      ". Posts Posts Posts Posts .";
+  }
+  
+  .Navbar { grid-area: Navbar; }
+  
+  .prof-pic { grid-area: prof-pic; }
+  
+  .Prof-info { grid-area: Prof-info; }
+  
+  .Posts { grid-area: Posts; }
+  
+  
+  .container > div {
+    border:2px solid black ;
+  }
