@@ -59,6 +59,7 @@
   
 .Posts {
      grid-area: Posts;
+
 }
   
   
@@ -66,3 +67,24 @@
     /* border:2px solid black ; */
 /* } */
 
+.post-card {
+    border: 1px solid black;
+    padding: 1vh;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-links a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: aqua;
+}
