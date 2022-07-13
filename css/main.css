@@ -34,22 +34,27 @@
     grid-area: prof-pic;
     display: flex;
     align-items: center;
+    
 }
 
 
-
-    
 #profilepic {
     width: 100%;
     height: auto;
-    align-self: center;
 }
-
-
 
   
 .Prof-info { 
     grid-area: Prof-info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 5vw;
+}
+
+.Prof-info > h1 {
+    align-self: center;
 }
   
 .Posts {
@@ -60,3 +65,4 @@
 .container > div {
     border:2px solid black ;
 }
+
