@@ -12,15 +12,38 @@
       ". Posts Posts Posts Posts .";
   }
   
-  .Navbar { grid-area: Navbar; }
+.Navbar {
+    grid-area: Navbar;
+    background-color: black ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90vh;
+
+}
   
-  .prof-pic { grid-area: prof-pic; }
+.Navbar > a {
+    color: white;
+    text-decoration: none;}
+
+
+.prof-pic 
+  { grid-area: prof-pic;
+}
   
-  .Prof-info { grid-area: Prof-info; }
+.Prof-info { 
+    grid-area: Prof-info;
+}
   
-  .Posts { grid-area: Posts; }
+.Posts {
+     grid-area: Posts;
+}
   
   
-  .container > div {
+.container > div {
     border:2px solid black ;
-  }
+}
