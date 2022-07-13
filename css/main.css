@@ -1,6 +1,6 @@
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 10vh 2fr 3fr;
@@ -30,10 +30,23 @@
     color: white;
     text-decoration: none;}
 
-
-.prof-pic 
-  { grid-area: prof-pic;
+.prof-pic {
+    grid-area: prof-pic;
+    display: flex;
+    align-items: center;
 }
+
+
+
+    
+#profilepic {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+
+
   
 .Prof-info { 
     grid-area: Prof-info;
